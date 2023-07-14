@@ -1,18 +1,23 @@
 import React from "react";
 import styled from "styled-components";
+import { useParams } from "react-router-dom";
+import { useQuery } from "react-query";
+import { getDiaries } from "../api/diaries";
 
 const Detail = () => {
+  const params = useParams();
+  const id = params.id;
+
+  const { data } = useQuery("diaries", getDiaries);
+
+  const diary = data.data.find((item) => item.id == id);
+
   return (
     <StyledMain>
-      <StyledTitle>Diary Title</StyledTitle>
-      <StyledDate>July 7, 2023</StyledDate>
-      <StyledMood>Mood: 4</StyledMood>
-      <StyledContent>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        fermentum felis vel sem eleifend, et viverra ex scelerisque. Donec ut
-        tortor eget nulla bibendum cursus. Nam tincidunt arcu et risus congue,
-        vitae bibendum mi finibus.
-      </StyledContent>
+      <StyledTitle>{diary.title}</StyledTitle>
+      <StyledDate>{diary.createdAt}</StyledDate>
+      <StyledMood>Mood: {diary.moodCode}</StyledMood>
+      <StyledContent>{diary.body}</StyledContent>
     </StyledMain>
   );
 };

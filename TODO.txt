@@ -1,0 +1,5 @@
+
+1. 유효성 검증
+2. redux devtools -> development
+3. 배포된 결과물에서 console.log
+4. .env

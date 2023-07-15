@@ -1,5 +1,4 @@
-
-1. 유효성 검증
-2. redux devtools -> development
-3. 배포된 결과물에서 console.log
-4. .env
+1. page 컴포넌트 작성(Login, Join, 404)
+2. 회원가입 기능 완성
+3. 로그인 기능 완성
+4. 

@@ -11,6 +11,11 @@ const Header = () => {
   const handleWriteButtonClick = () => {
     navigate("/write");
   };
+
+  const handleLogoutButtonClick = () => {
+    localStorage.removeItem("token");
+    navigate("/login");
+  };
   return (
     <StyledHeader>
       <StyledLogo
@@ -18,9 +23,14 @@ const Header = () => {
         alt="Logo"
         onClick={handleLogoClick}
       />
-      <StyledWriteButton onClick={handleWriteButtonClick}>
-        일기쓰기
-      </StyledWriteButton>
+      <div>
+        <StyledWriteButton onClick={handleWriteButtonClick}>
+          일기쓰기
+        </StyledWriteButton>
+        <StyledLogoutButton onClick={handleLogoutButtonClick}>
+          로그아웃
+        </StyledLogoutButton>
+      </div>
     </StyledHeader>
   );
 };
@@ -43,6 +53,21 @@ const StyledLogo = styled.img`
 const StyledWriteButton = styled.button`
   padding: 10px 20px;
   background-color: #98c1d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #81a4c2;
+  }
+`;
+
+const StyledLogoutButton = styled.button`
+  padding: 10px 20px;
+  background-color: red;
   color: #fff;
   border: none;
   border-radius: 5px;

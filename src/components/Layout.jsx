@@ -10,6 +10,6 @@ export default Layout;
 const StyledAppContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   font-family: Arial, sans-serif;
 `;

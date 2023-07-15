@@ -1,0 +1,19 @@
+{
+  "diary": [
+    {
+      "id": 1,  => 이렇게 숫자로 지정해주면, 알아서 랜덤숫자로 갈아끼워줌. "1"처럼 문자열로 지정하면, 랜덤문자열로 갈아끼워줌.
+      "title": "Test Diary Title 1",
+      "body": "Loream",
+      "isDeleted": false,
+      "moodCode": 1
+    },
+    {
+      "id": 2,
+      "title": "Test Diary Title 2",
+      "body": "Loream",
+      "isDeleted": false,
+      "moodCode": 2
+    },
+  ]
+}
+=> dB가 diary라는 컬렉션을 가지고 있다는 뜻. 

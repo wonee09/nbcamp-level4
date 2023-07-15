@@ -1,0 +1,94 @@
+{
+  "diary": [
+    {
+      "id": 1,
+      "title": "Test Diary Title 1",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum felis vel sem eleifend, et viverra ex scelerisque. Donec ut tortor eget nulla bibendum cursus. Nam tincidunt arcu et risus congue, vitae bibendum mi finibus.",
+      "isDeleted": false,
+      "moodCode": 1,
+      "createdAt": "Sat Jul 08 2023 04:28:24 GMT+0900 (한국 표준시)",
+      "password": "1234"
+    },
+    {
+      "moodCode": "4",
+      "title": "aaa",
+      "body": "bbb",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 04:29:02 GMT+0900 (한국 표준시)",
+      "id": 2
+    },
+    {
+      "moodCode": 1,
+      "title": "a",
+      "body": "b",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:29:52 GMT+0900 (한국 표준시)",
+      "id": 3
+    },
+    {
+      "moodCode": "3",
+      "title": "test1",
+      "body": "test2",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:30:01 GMT+0900 (한국 표준시)",
+      "id": 4
+    },
+    {
+      "moodCode": 1,
+      "title": "a",
+      "body": "b",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:29:52 GMT+0900 (한국 표준시)",
+      "id": 5
+    },
+    {
+      "moodCode": "3",
+      "title": "test1",
+      "body": "test2",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:30:01 GMT+0900 (한국 표준시)",
+      "id": 6
+    },
+    {
+      "moodCode": 1,
+      "title": "a",
+      "body": "b",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:29:52 GMT+0900 (한국 표준시)",
+      "id": 7
+    },
+    {
+      "moodCode": "3",
+      "title": "test1",
+      "body": "test2",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:30:01 GMT+0900 (한국 표준시)",
+      "id": 8
+    },
+    {
+      "moodCode": 1,
+      "title": "a",
+      "body": "b",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:29:52 GMT+0900 (한국 표준시)",
+      "id": 9
+    },
+    {
+      "moodCode": "3",
+      "title": "test1",
+      "body": "test2",
+      "password": "1234",
+      "isDeleted": false,
+      "createdAt": "Sat Jul 08 2023 05:30:01 GMT+0900 (한국 표준시)",
+      "id": 10
+    }
+  ]
+}
